@@ -6,7 +6,7 @@ variable "resource_group_name" {
 variable "location" {
   type        = string
   description = "Resources location in Azure"
-  default = "xyz"
+  default = "CentralUS"
 
 }
 variable "cluster_name" {
@@ -17,12 +17,12 @@ variable "cluster_name" {
 variable "kubernetes_version" {
   type        = string
   description = "Kubernetes version"
-  default = "xyz"
+  default = "1.26.3"
 }
 variable "system_node_count" {
   type        = number
   description = "Number of AKS worker nodes"
-  default = "xyz"
+  default = "2"
 
 }
 variable "acr_name" {
