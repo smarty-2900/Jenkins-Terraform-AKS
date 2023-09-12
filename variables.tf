@@ -12,7 +12,7 @@ variable "location" {
 variable "cluster_name" {
   type        = string
   description = "AKS name in Azure"
-  default = "xyz"
+  default = "myCluster"
 }
 variable "kubernetes_version" {
   type        = string
@@ -28,6 +28,6 @@ variable "system_node_count" {
 variable "acr_name" {
   type        = string
   description = "ACR name"
-  default = "xyz"
+  default = "myacr"
 
 }
