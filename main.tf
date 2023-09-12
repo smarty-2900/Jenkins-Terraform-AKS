@@ -28,7 +28,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
   default_node_pool {
     name                = "system"
     node_count          = var.system_node_count
-    vm_size             = "standard_ds2"
+    vm_size             = "standard_ds4"
     type                = "VirtualMachineScaleSets"
     zones  = [1, 2, 3]
     enable_auto_scaling = false
