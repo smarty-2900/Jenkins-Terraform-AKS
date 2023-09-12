@@ -28,6 +28,6 @@ variable "system_node_count" {
 variable "acr_name" {
   type        = string
   description = "ACR name"
-  default = "myacr"
+  default = "myacr002900103"
 
 }
